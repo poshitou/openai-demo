@@ -3,7 +3,7 @@ import os
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.keys import Keys
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "sk-hOsmTgkw1xrlfsAYLiuxiaokangIbkcT3BlbkFJMhURe1eDzE05LD6obvTz"
 os.environ["OPENAI_API_KEY"] = "sk-3uQYgvt4coIjaPxM2ZrWAdMFrsQY4Ftaxir9Xyc9GvIsTrsf"
 os.environ["OPENAI_API_BASE"] = "https://api.fe8.cn/v1"
 # os.environ["OPENAI_API_KEY"] = "sk-WHRCoUdd39GWq4RW084f16CeBaAc4f21BdD178F6Ba55Fd80"
