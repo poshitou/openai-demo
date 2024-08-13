@@ -1,7 +1,10 @@
+import os
+
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.keys import Keys
-
+os.environ["OPENAI_API_KEY"] = "sk-3uQYgvt4coIjaPxM2ZrWAdMFrsQY4Ftaxir9Xyc9GvIsTrsf"
+os.environ["OPENAI_API_BASE"] = "https://api.fe8.cn/v1"
 # 设置 Chrome 无头模式
 chrome_options = Options()
 chrome_options.add_argument("--headless")  # 开启无头模式
