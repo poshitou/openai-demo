@@ -5,7 +5,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.keys import Keys
 os.environ["OPENAI_API_KEY"] = "sk-3uQYgvt4coIjaPxM2ZrWAdMFrsQY4Ftaxir9Xyc9GvIsTrsf"
 os.environ["OPENAI_API_BASE"] = "https://api.fe8.cn/v1"
-
+# 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
 # os.environ["OPENAI_API_KEY"] = "sk-WHRCoUdd39GWq4RW084f16CeBaAc4f21BdD178F6Ba55Fd80"
 # os.environ["OPENAI_API_BASE"] = "https://api.xty.app/v1"
 # 设置 Chrome 无头模式
